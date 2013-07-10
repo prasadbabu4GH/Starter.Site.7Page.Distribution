@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "8e113b319557f1e6d2ab731fb98633a7",
+    "hash": "bf9e4e3f8553af5697f211476b54958a",
     "packages": [
         {
             "name": "composer/installers",
@@ -672,7 +672,7 @@
         },
         {
             "name": "imagine/imagine",
-            "version": "dev-master",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avalanche123/Imagine.git",
