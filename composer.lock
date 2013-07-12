@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bf9e4e3f8553af5697f211476b54958a",
+    "hash": "8e113b319557f1e6d2ab731fb98633a7",
     "packages": [
         {
             "name": "composer/installers",
@@ -672,16 +672,16 @@
         },
         {
             "name": "imagine/imagine",
-            "version": "v0.4.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avalanche123/Imagine.git",
-                "reference": "v0.4.1"
+                "reference": "v0.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/v0.4.1",
-                "reference": "v0.4.1",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/v0.5.0",
+                "reference": "v0.5.0",
                 "shasum": ""
             },
             "require": {
@@ -689,6 +689,11 @@
             },
             "require-dev": {
                 "sami/sami": "dev-master"
+            },
+            "suggest": {
+                "ext-gd": "to use the GD implementation",
+                "ext-gmagick": "to use the Gmagick implementation",
+                "ext-imagick": "to use the Imagick implementation"
             },
             "type": "library",
             "autoload": {
@@ -715,7 +720,7 @@
                 "image manipulation",
                 "image processing"
             ],
-            "time": "2012-12-13 18:31:18"
+            "time": "2013-07-10 17:25:36"
         },
         {
             "name": "lelesys/captcha",
@@ -1066,12 +1071,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lelesys/Lelesys.StarterSite.7Page.git",
-                "reference": "8922890d18cd74e53392017b90561f81ff0aa2f9"
+                "reference": "f2e9e465274a987e3acd07e2522e46cfd427984c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lelesys/Lelesys.StarterSite.7Page/zipball/8922890d18cd74e53392017b90561f81ff0aa2f9",
-                "reference": "8922890d18cd74e53392017b90561f81ff0aa2f9",
+                "url": "https://api.github.com/repos/lelesys/Lelesys.StarterSite.7Page/zipball/f2e9e465274a987e3acd07e2522e46cfd427984c",
+                "reference": "f2e9e465274a987e3acd07e2522e46cfd427984c",
                 "shasum": ""
             },
             "require": {
@@ -1096,7 +1101,7 @@
                 "GPL-3.0+"
             ],
             "description": "Site package for the TYPO3 Neos 7 page site.",
-            "time": "2013-07-10 16:48:15"
+            "time": "2013-07-12 07:40:38"
         },
         {
             "name": "symfony/console",
@@ -1105,12 +1110,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "3b58c937fc7e0dbdadd2642f21c462a0e663f0b6"
+                "reference": "c374f12670a4e6b6b72ef2a2d58b75534d94609c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/3b58c937fc7e0dbdadd2642f21c462a0e663f0b6",
-                "reference": "3b58c937fc7e0dbdadd2642f21c462a0e663f0b6",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/c374f12670a4e6b6b72ef2a2d58b75534d94609c",
+                "reference": "c374f12670a4e6b6b72ef2a2d58b75534d94609c",
                 "shasum": ""
             },
             "require": {
@@ -1149,7 +1154,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-07-08 13:37:01"
+            "time": "2013-07-11 19:37:15"
         },
         {
             "name": "symfony/dom-crawler",
@@ -1399,10 +1404,10 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Imagine.git",
-                "reference": "202eda6ba3c4f30dbcfc14488c77c73d4b85e848"
+                "reference": "5dd4b77760de0dd1b22aa42f713cd8135867230a"
             },
             "require": {
-                "imagine/imagine": "*",
+                "imagine/imagine": ">=0.5",
                 "typo3/flow": "*"
             },
             "type": "typo3-flow-package",
@@ -1412,7 +1417,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2012-11-09 09:20:33"
+            "time": "2013-07-10 20:13:28"
         },
         {
             "name": "typo3/kickstart",
@@ -1469,7 +1474,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "a16296c7959a5bce4437efc99a80f7b398519ad1"
+                "reference": "3465894c242d6d466d3c4025efd97045433e331c"
             },
             "require": {
                 "typo3/aloha": "*",
@@ -1493,7 +1498,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2013-07-10 14:32:45"
+            "time": "2013-07-11 12:38:46"
         },
         {
             "name": "typo3/neos-nodetypes",
