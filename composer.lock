@@ -1071,12 +1071,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lelesys/Lelesys.StarterSite.7Page.git",
-                "reference": "f2e9e465274a987e3acd07e2522e46cfd427984c"
+                "reference": "4b864802069a72c242bc6b9feb04379b9a601dcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lelesys/Lelesys.StarterSite.7Page/zipball/f2e9e465274a987e3acd07e2522e46cfd427984c",
-                "reference": "f2e9e465274a987e3acd07e2522e46cfd427984c",
+                "url": "https://api.github.com/repos/lelesys/Lelesys.StarterSite.7Page/zipball/4b864802069a72c242bc6b9feb04379b9a601dcf",
+                "reference": "4b864802069a72c242bc6b9feb04379b9a601dcf",
                 "shasum": ""
             },
             "require": {
@@ -1101,7 +1101,7 @@
                 "GPL-3.0+"
             ],
             "description": "Site package for the TYPO3 Neos 7 page site.",
-            "time": "2013-07-12 07:40:38"
+            "time": "2013-07-12 23:03:58"
         },
         {
             "name": "symfony/console",
@@ -1320,7 +1320,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "26863ade5ea4466f4f21d7fac744084b6f206a82"
+                "reference": "4061f2bafdd8a16a51bb8d3805f16e96ec5b315a"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -1351,7 +1351,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2013-07-10 10:23:28"
+            "time": "2013-07-12 11:27:55"
         },
         {
             "name": "typo3/fluid",
